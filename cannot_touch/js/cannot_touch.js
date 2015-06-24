@@ -17,4 +17,18 @@ function over_btn(e){
     btn_move(this, e.clientX, e.clientY);
 }
 
-document.getElementById('gbqfba').onmouseover = over_btn;
+//document.getElementById('su').onmouseover = over_btn;
+//document.getElementById('btnK').onmouseover = over_btn;
+
+document.getElementsByName('btnK')[0].onmouseover = over_btn;
+
+//document.getElementsByName('btnK')[0].onclick = function(){
+//    alert('by saiwei')
+//};
+
+//document.getElementById('btnK').onclick = function(){
+//    alert('by saiwei')
+//};
+
+console.log('hello world from extends by saiwei')
+//console.log(Date())
