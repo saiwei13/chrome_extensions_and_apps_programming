@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "Google在线状态",
-    "version": "1.0",
+    "version": "1.9.2",
     "description": "监视Google是否在线",
     "icons": {
         "16": "images/icon16.png",
@@ -18,8 +18,9 @@
         "scripts": [
             "js/status.js"
         ]
-    },
+    }
+,
     "permissions": [
-        "http://www.google.cn/"
+        "https://www.google.com.hk/?gws_rd=ssl"
     ]
 }

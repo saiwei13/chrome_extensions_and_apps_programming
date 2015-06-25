@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
-    "name": "查看我的IP",
-    "version": "1.0",
+    "name": "查看我的IP by saiwei",
+    "version": "1.1",
     "description": "查看我的电脑当前的公网IP",
     "icons": {
         "16": "images/icon16.png",
@@ -17,6 +17,7 @@
         "default_popup": "popup.html"
     },
     "permissions": [
-        "http://sneezryworks.sinaapp.com/ip.php"
+//        "http://sneezryworks.sinaapp.com/ip.php"
+        "http://127.0.0.1:8888/test"
     ]
 }

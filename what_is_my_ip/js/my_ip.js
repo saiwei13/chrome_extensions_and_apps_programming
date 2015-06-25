@@ -1,3 +1,5 @@
+var url = 'http://sneezryworks.sinaapp.com/ip.php'
+url = 'http://127.0.0.1:8888/test'
 function httpRequest(url, callback){
     var xhr = new XMLHttpRequest();
     xhr.open("GET", url, true);
@@ -9,6 +11,6 @@ function httpRequest(url, callback){
     xhr.send();
 }
 
-httpRequest('http://sneezryworks.sinaapp.com/ip.php', function(ip){
+httpRequest(url, function(ip){
     document.getElementById('ip_div').innerText = ip;
 });
